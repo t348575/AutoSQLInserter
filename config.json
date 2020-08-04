@@ -1,0 +1,16 @@
+{
+    "connection": {
+        "host"     : "localhost",
+        "user"     : "root",
+        "password" : "kanichai",
+        "database" : "test_db",
+        "multipleStatements": true
+    },
+    "inFile": ["table1.csv", "table2.csv"],
+    "outFile": "output",
+    "stmtFile": "test",
+    "pre": "execute before.sql",
+    "post": "execute after.sql",
+    "errLevel": 0,
+    "seq": true
+}
